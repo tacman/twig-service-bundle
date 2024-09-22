@@ -51,7 +51,7 @@ class SomeService
         // ...
     }
 
-    #[AsTwigFunction('alias')] // will be available as "fn_alias" in twig
+    #[AsTwigFunction('alias')] // will be available as "fn_alias()" in twig
     public function anotherMethod($arg1, $arg2): string
     {
         // ...
