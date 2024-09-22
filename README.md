@@ -45,7 +45,7 @@ class SomeService
 {
     // ...
 
-    #[AsTwigFunction] // will be available as "fn_someMethod" in twig
+    #[AsTwigFunction] // will be available as "fn_someMethod()" in twig
     public function someMethod($arg1, $arg2): string
     {
         // ...
